@@ -1,0 +1,46 @@
+{
+  "_comment": "Mock auth table. Password is plain text on purpose — this is a prototype, no production auth.",
+  "users": [
+    {
+      "id": "USR-BIDDER-001",
+      "role": "bidder",
+      "email": "contact@abcpetroleum.in",
+      "password": "demo123",
+      "profileId": "BID-001"
+    },
+    {
+      "id": "USR-BUYER-001",
+      "role": "buyer",
+      "email": "procurement@mopng.gov.in",
+      "password": "demo123",
+      "profileId": "BUY-001"
+    },
+    {
+      "id": "USR-OFFICER-001",
+      "role": "officer",
+      "email": "officer.rao@mopng.gov.in",
+      "password": "demo123",
+      "profileId": "OFF-001"
+    },
+    {
+      "id": "USR-BUYER-001",
+      "role": "buyer",
+      "email": "buyer.test@mopng.gov.in",
+      "password": "demo123",
+      "profileId": "BUY-001"
+    },
+    {
+      "id": "USR-OFFICER-001",
+      "role": "officer",
+      "email": "anjali.sharma@mopng.gov.in",
+      "password": "demo123",
+      "profileId": "OFF-001"
+    },
+    {
+      "id": "USR-BIDDER-001",
+      "role": "bidder",
+      "password": "demo123",
+      "profileId": "BID-001"
+    }
+  ]
+}

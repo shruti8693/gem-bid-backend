@@ -1,0 +1,12 @@
+{
+  "_comment": "Populated in the phase that builds this feature.",
+  "documents": [
+    {
+      "bidderId": "BID-001",
+      "tenderId": "TND-001",
+      "docs": {
+        "bis": "The Ultimate Guide to No Skill, No Investment Income System (1).pdf"
+      }
+    }
+  ]
+}

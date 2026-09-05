@@ -1,0 +1,16 @@
+{
+  "_comment": "Populated in the phase that builds this feature.",
+  "clarifications": [
+    {
+      "id": "CLR-001",
+      "bidId": "BID-SUB-002",
+      "tenderId": "TND-001",
+      "bidderId": "BID-001",
+      "document": "Authorized Representative Proof",
+      "reason": "Document contains unclear authorization data",
+      "message": "Please submit valid document\n",
+      "status": "Resolved",
+      "createdAt": "2026-09-05T09:53:11.658Z"
+    }
+  ]
+}

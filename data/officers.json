@@ -1,0 +1,26 @@
+{
+  "_comment": "Populated in the phase that builds this feature.",
+  "officers": [
+    {
+      "id": "OFF-001",
+      "fullName": "Anjali Sharma",
+      "employeeId": "MOPNG-EMP-4521",
+      "designation": "Assistant Procurement Officer",
+      "department": "Procurement & Contracts Division",
+      "officialEmail": "anjali.sharma@mopng.gov.in",
+      "officialPhone": "9845012345",
+      "organization": "Ministry of Petroleum & Natural Gas",
+      "employeeNumber": "EMPN-778812",
+      "authorizationDocFile": "The Ultimate Guide to No Skill, No Investment Income System (1).pdf",
+      "password": "demo123",
+      "permissions": [
+        "View Tender",
+        "View Bids",
+        "Review Compliance",
+        "View Risk Reports",
+        "Evaluate Bid",
+        "Make Recommendation"
+      ]
+    }
+  ]
+}

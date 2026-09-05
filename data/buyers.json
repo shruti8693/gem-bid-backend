@@ -1,0 +1,26 @@
+{
+  "_comment": "Populated in the phase that builds this feature.",
+  "buyers": [
+    {
+      "id": "BUY-001",
+      "organizationName": "Ministry of Petroleum & Natural Gas",
+      "organizationType": "Central Government Ministry",
+      "registrationNumber": "MOPNG/GOV/1975/001",
+      "registeredAddress": "Shastri Bhawan, Dr. Rajendra Prasad Road",
+      "state": "Delhi",
+      "city": "New Delhi",
+      "officialWebsite": "https://mopng.gov.in",
+      "registrationProofFile": "MU Exam form Sem 4.pdf",
+      "authorizationDocFile": "Exp-4-Wup.docx (2).pdf",
+      "department": "Procurement & Contracts Division",
+      "officialContact": "011-23383183",
+      "officialEmail": "buyer.test@mopng.gov.in",
+      "signatoryName": "Rajesh Kumar Mehta",
+      "signatoryDesignation": "Deputy Secretary (Procurement)",
+      "signatoryEmail": "r.mehta@mopng.gov.in",
+      "signatoryPhone": "9811023456",
+      "signatoryDocFile": "Miniproject1A.4.pdf",
+      "password": "demo123"
+    }
+  ]
+}
