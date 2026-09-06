@@ -33,6 +33,17 @@
       "link": "/officer/bids/BID-SUB-004",
       "read": true,
       "createdAt": "2026-09-05T11:09:35.543Z"
+    },
+    {
+      "id": "NOTIF-004",
+      "recipientRole": "officer",
+      "recipientId": "OFF-001",
+      "type": "new_bid",
+      "title": "New Bid Received",
+      "message": "Compliance: 94% • Risk: LOW",
+      "link": "/officer/bids/BID-SUB-007",
+      "read": true,
+      "createdAt": "2026-09-06T07:36:27.698Z"
     }
   ]
 }

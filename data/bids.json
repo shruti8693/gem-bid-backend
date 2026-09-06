@@ -129,7 +129,6 @@
         "nameConsistencyWarning": true
       }
     },
-
     {
       "id": "BID-SUB-DEMO-XYZ",
       "bidderId": "BID-DEMO-XYZ",
@@ -192,6 +191,38 @@
           "esic": "Match"
         },
         "nameConsistencyWarning": false
+      }
+    },
+    {
+      "id": "BID-SUB-007",
+      "bidderId": "BID-001",
+      "tenderId": "TND-001",
+      "status": "Under Review",
+      "submittedAt": "2026-09-06T07:36:27.461Z",
+      "complianceScore": 94,
+      "riskLevel": "LOW",
+      "riskScore": 8,
+      "verification": {
+        "documents": {
+          "companyRegistration": "Verified",
+          "gst": "Verified",
+          "pan": "Verified",
+          "experience": "Verified",
+          "financial": "Verified",
+          "technical": "Verified",
+          "iso": "Verified",
+          "representative": "Verified"
+        },
+        "governmentCrossCheck": {
+          "gstn": "Match",
+          "pan": "Match",
+          "mca": "Match",
+          "udyam": "Match",
+          "nsic": "Match",
+          "epfo": "Match",
+          "esic": "Match"
+        },
+        "nameConsistencyWarning": true
       }
     }
   ]
