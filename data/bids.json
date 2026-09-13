@@ -224,6 +224,70 @@
         },
         "nameConsistencyWarning": true
       }
+    },
+    {
+      "id": "BID-SUB-008",
+      "bidderId": "BID-001",
+      "tenderId": "TND-002",
+      "status": "Under Review",
+      "submittedAt": "2026-09-13T07:22:38.869Z",
+      "complianceScore": 94,
+      "riskLevel": "LOW",
+      "riskScore": 8,
+      "verification": {
+        "documents": {
+          "companyRegistration": "Verified",
+          "gst": "Verified",
+          "pan": "Verified",
+          "experience": "Verified",
+          "financial": "Verified",
+          "technical": "Verified",
+          "iso": "Verified",
+          "representative": "Verified"
+        },
+        "governmentCrossCheck": {
+          "gstn": "Match",
+          "pan": "Match",
+          "mca": "Match",
+          "udyam": "Match",
+          "nsic": "Match",
+          "epfo": "Match",
+          "esic": "Match"
+        },
+        "nameConsistencyWarning": true
+      }
+    },
+    {
+      "id": "BID-SUB-009",
+      "bidderId": "BID-001",
+      "tenderId": "TND-001",
+      "status": "Under Review",
+      "submittedAt": "2026-09-13T14:28:09.725Z",
+      "complianceScore": 94,
+      "riskLevel": "LOW",
+      "riskScore": 8,
+      "verification": {
+        "documents": {
+          "companyRegistration": "Verified",
+          "gst": "Verified",
+          "pan": "Verified",
+          "experience": "Verified",
+          "financial": "Verified",
+          "technical": "Verified",
+          "iso": "Verified",
+          "representative": "Verified"
+        },
+        "governmentCrossCheck": {
+          "gstn": "Match",
+          "pan": "Match",
+          "mca": "Match",
+          "udyam": "Match",
+          "nsic": "Match",
+          "epfo": "Match",
+          "esic": "Match"
+        },
+        "nameConsistencyWarning": true
+      }
     }
   ]
 }

@@ -44,6 +44,28 @@
       "link": "/officer/bids/BID-SUB-007",
       "read": true,
       "createdAt": "2026-09-06T07:36:27.698Z"
+    },
+    {
+      "id": "NOTIF-005",
+      "recipientRole": "officer",
+      "recipientId": "OFF-001",
+      "type": "new_bid",
+      "title": "New Bid Received",
+      "message": "Compliance: 94% • Risk: LOW",
+      "link": "/officer/bids/BID-SUB-008",
+      "read": false,
+      "createdAt": "2026-09-13T07:22:38.885Z"
+    },
+    {
+      "id": "NOTIF-006",
+      "recipientRole": "officer",
+      "recipientId": "OFF-001",
+      "type": "new_bid",
+      "title": "New Bid Received",
+      "message": "Compliance: 94% • Risk: LOW",
+      "link": "/officer/bids/BID-SUB-009",
+      "read": false,
+      "createdAt": "2026-09-13T14:28:09.741Z"
     }
   ]
 }
