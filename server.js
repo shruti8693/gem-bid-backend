@@ -1,9 +1,14 @@
 import express from "express";
 import cors from "cors";
+import path from "path";
+import { fileURLToPath } from "url";
 import { readCollection, writeCollection } from "./services/jsonStore.js";
-
 const app = express();
 const PORT = process.env.PORT || 4000;
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const FRONTEND_DIST = path.join(__dirname, "frontend", "dist");
 
 app.use(cors());
 app.use(express.json());
@@ -466,6 +471,13 @@ app.patch("/api/notifications/:id/read", async (req, res) => {
   notifications[index] = { ...notifications[index], read: true };
   await writeCollection("notifications", notifications);
   res.json({ notification: notifications[index] });
+});
+// Serve the React frontend
+app.use(express.static(FRONTEND_DIST));
+
+// React Router fallback
+app.get("/{*splat}", (_req, res) => {
+  res.sendFile(path.join(FRONTEND_DIST, "index.html"));
 });
 
 app.listen(PORT, () => {
